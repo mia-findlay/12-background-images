@@ -1,0 +1,170 @@
+/* ---------- Colors used on this page ----------
+   Orange:     #f5924b
+   Blue:       #1d93ba
+   Coral:      #e8613c
+   Cream:      #fdf8ec
+   Dark text:  #333333
+------------------------------------------------ */
+
+/* ---------- Page background (pattern) ---------- */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333333;
+    background-color: #bfe8e2;
+    background-image: url('images/pattern.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/* ---------- Header and hero banner ---------- */
+.hero {
+    display: flex;
+    flex-direction: column;
+    min-height: 480px;
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 4px solid #1d93ba;
+}
+
+.top-bar {
+    background-color: #f5924b;
+    border-bottom: 4px solid #1d93ba;
+    padding: 30px 0;
+}
+
+.top-bar h1 {
+    width: 800px;
+    margin: 0 auto 10px auto;
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: white;
+}
+
+/* ---------- Navigation ---------- */
+nav ul {
+    display: flex;
+    gap: 10px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 4px 18px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #f5924b;
+}
+
+/* ---------- Big text on top of the photo ---------- */
+.hero-text {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text h2 {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* ---------- Main content ---------- */
+main {
+    width: 800px;
+    margin: 50px auto;
+}
+
+article {
+    padding: 40px 50px;
+    background-color: #fdf8ec;
+}
+
+article h2 {
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #1d93ba;
+}
+
+article h3 {
+    margin: 0 0 30px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0d9a8;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #e8613c;
+}
+
+article a {
+    color: #1d93ba;
+}
+
+/* ---------- Code styling ---------- */
+code {
+    padding: 2px 8px;
+    border: 1px solid #f0d9a8;
+    border-radius: 4px;
+    background-color: #fff6e0;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    color: #e8613c;
+}
+
+.property-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* ---------- "That's a wrap!" box ---------- */
+aside {
+    margin-top: 40px;
+    padding: 30px 50px;
+    border-left: 8px solid #f5924b;
+    background-color: #1d93ba;
+    color: white;
+}
+
+aside h3 {
+    margin: 0 0 10px 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+aside p {
+    margin: 0;
+}
